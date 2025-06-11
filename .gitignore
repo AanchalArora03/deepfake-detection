@@ -1,0 +1,65 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
+
+# --- Environment & Dependencies ---
+.venv/
+env/
+venv/
+*.env
+*.ini
+Pipfile.lock
+poetry.lock
+
+# --- IDE Files ---
+.vscode/
+.idea/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and Outputs ---
+*.log
+*.out
+*.tmp
+
+# --- Model Checkpoints & Weights ---
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.pb
+runs/              # TensorBoard
+checkpoints/
+weights/
+
+# --- Datasets ---
+Training dataset/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.tfrecord
+*.zip
+*.tar
+*.tar.gz
+
+# --- Results ---
+output/
+outputs/
+predictions/
+inference_results/
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Misc ---
+*.bak
+*.swp
